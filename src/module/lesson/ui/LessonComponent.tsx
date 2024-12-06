@@ -178,6 +178,10 @@ const LessonComponent = ({ navigation, lessonIndex }: { navigation: any, lessonI
                 }
             },
             {
+                label: "📱 Глобустың AR моделі",
+                onClick: () => onAR("https://github.com/almatov1/assets-education-app-react-native/raw/refs/heads/main/assets/model/lesson-5/globe.glb")
+            },
+            {
                 label: "🗺️ Жер шарының политикалық картасы",
                 onClick: () => {
                     navigation.navigate(ROUTES.MAP, {
